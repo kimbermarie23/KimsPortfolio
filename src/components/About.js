@@ -18,8 +18,8 @@ export default function About() {
                      </p>
                      <div className="flex justify-center">
                          <a href="#contact"
-                         className="inline-flex text-white bg-green-500 border-0 py-2 
-                         px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Work With Me</a>
+                         className="inline-flex text-white bg-pink-800 border-0 py-2 
+                         px-6 focus:outline-none hover:bg-pink-900 rounded text-lg">Work With Me</a>
                          <a href="#projects"
                          className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 
                          focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">See My Past Work
@@ -30,8 +30,7 @@ export default function About() {
                  <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./coding.svg"/> 
-            {/* PLACE MY PICTURE HERE */}
+            src="./KimProfile2.png"/> 
                  </div>
              </div>
         </section>
