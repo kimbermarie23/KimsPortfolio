@@ -1,0 +1,58 @@
+Html Webpack Plugin:
+<pre>
+  Error: Parse Error: <noscript</noscript> 
+      <div id="root"></div> 
+      <!-- 
+        This HTML file is a template. 
+        If you open it directly in the browser, you will see an empty page. 
+        You can add webfonts, meta tags, or analytics to this file. 
+        The build step will place the bundled scripts into the <body> tag. 
+        To begin the development, run `npm start` or `yarn start`. 
+        To create a production bundle, use `npm run build` or `yarn build`. 
+      --> 
+    <script type="text/javascript" src="/static/js/main.a6224b20.js"></script></body> 
+  </html>
+  
+  - htmlparser.js:240 new HTMLParser
+    [my-portfolio]/[html-minifier]/src/htmlparser.js:240:13
+  
+  - htmlminifier.js:966 minify
+    [my-portfolio]/[html-minifier]/src/htmlminifier.js:966:3
+  
+  - htmlminifier.js:1326 exports.minify
+    [my-portfolio]/[html-minifier]/src/htmlminifier.js:1326:16
+  
+  - index.js:296 
+    [my-portfolio]/[html-webpack-plugin]/index.js:296:16
+  
+  - util.js:16 tryCatcher
+    [my-portfolio]/[bluebird]/js/release/util.js:16:23
+  
+  - promise.js:547 Promise._settlePromiseFromHandler
+    [my-portfolio]/[bluebird]/js/release/promise.js:547:31
+  
+  - promise.js:604 Promise._settlePromise
+    [my-portfolio]/[bluebird]/js/release/promise.js:604:18
+  
+  - promise.js:649 Promise._settlePromise0
+    [my-portfolio]/[bluebird]/js/release/promise.js:649:10
+  
+  - promise.js:729 Promise._settlePromises
+    [my-portfolio]/[bluebird]/js/release/promise.js:729:18
+  
+  - async.js:93 _drainQueueStep
+    [my-portfolio]/[bluebird]/js/release/async.js:93:12
+  
+  - async.js:86 _drainQueue
+    [my-portfolio]/[bluebird]/js/release/async.js:86:9
+  
+  - async.js:102 Async._drainQueues
+    [my-portfolio]/[bluebird]/js/release/async.js:102:5
+  
+  - async.js:15 Immediate.Async.drainQueues [as _onImmediate]
+    [my-portfolio]/[bluebird]/js/release/async.js:15:14
+  
+  - timers.js:461 processImmediate
+    internal/timers.js:461:21
+  
+</pre>
