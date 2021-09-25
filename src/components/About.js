@@ -21,14 +21,15 @@ export default function About() {
                          className="inline-flex text-white bg-pink-800 border-0 py-2 
                          px-6 focus:outline-none hover:bg-pink-900 rounded text-lg">Work With Me</a>
                          <a href="#projects"
-                         className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 
+                         className="ml-4 inline-flex text-pink-200 bg-gray-800 border-0 py-2 px-6 
                          focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">See My Past Work
                          </a>
                      </div>
                  </div>
-                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                 <div className="lg:max-w-sm lg:w-full md:w-1/2 w-5/6" >
                  <img
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded "
+            class="border-solid border-4 border-pink-500 border-opacity-25"
             alt="hero"
             src="./KimProfile2.png"/> 
                  </div>
