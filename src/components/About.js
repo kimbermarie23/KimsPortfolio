@@ -29,7 +29,7 @@ export default function About() {
                  <div className="lg:max-w-sm lg:w-full md:w-1/2 w-5/6" >
                  <img
             className="object-cover object-center rounded "
-            class="border-solid border-4 border-pink-500 border-opacity-25"
+            class="border-solid border-4 border-pink-500 border-opacity-25 rounded-l-full"
             alt="hero"
             src="./KimProfile2.png"/> 
                  </div>
