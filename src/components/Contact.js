@@ -20,8 +20,8 @@ export default function Contact() {
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", name, email, message }),
         })
-        .then(() => alert("Message sent!"))
-        .catch((error) => alert(error));
+            .then(() => alert("Message sent!"))
+            .catch((error) => alert(error));
     }
 
     return (
@@ -37,9 +37,9 @@ export default function Contact() {
                         marginHeight={0}
                         marginWidth={0}
                         style={{ filter: "opacity(0.7)" }}
-                        iframe style="height:100%;width:100%;border:0;" frameborder="0" 
+                        iframe style={{ height: "100%", width: "100%", border: "0" }} frameborder="0"
                         src="https://www.google.com/maps/embed/v1/place?q=columbia,TN&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
-                       
+
                     <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
                         <div className="lg:w-1/2 px-6">
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs">
